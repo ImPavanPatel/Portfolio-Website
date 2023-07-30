@@ -1,0 +1,455 @@
+/* ---------- media queries --------- */
+
+@media screen and (max-width: 1150px) {
+  .PD-image {
+    width: 275px;
+    height: 275px;
+  }
+}
+
+@media screen and (max-width: 1041px) {
+  /* name */
+  .name {
+    padding: 80px 24px 256px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+
+  /* profile */
+  .title {
+    font-size: 40px;
+  }
+
+  /* work */
+  .my_work {
+    padding: 80px 24px;
+  }
+
+  .col-3 {
+    flex-basis: 47%;
+    margin-block: 12px;
+  }
+
+  /* collabration */
+  .collabration {
+    padding: 100px 24px;
+  }
+
+  /* footer */
+  .footer {
+    margin-top: 170px;
+  }
+
+  .box p {
+    padding-inline: 35px;
+  }
+}
+
+@media screen and (max-width: 945px) {
+  /* name */
+  .column {
+    margin-inline: 170px;
+  }
+}
+
+@media screen and (max-width: 928px) {
+
+  .PD-image {
+    width: 250px;
+    height: 250px;
+    margin-block: 32px;
+  }
+}
+
+@media screen and (max-width: 915px) {
+
+  /* name */
+  .column {
+    margin-inline: 150px;
+  }
+
+}
+
+@media screen and (max-width: 875px) {
+  /* name */
+  .column {
+    margin-inline: 130px;
+  }
+}
+
+@media screen and (max-width: 858px) {
+
+  .box h1{
+    padding: 0;
+  }
+
+}
+
+@media screen and (max-width: 835px) {
+
+  /* name */
+  .column {
+    margin-inline: 120px;
+  }
+
+}
+
+@media screen and (max-width: 815px) {
+
+  /* name */
+  .column {
+    margin-inline: 100px;
+  }
+
+}
+
+@media screen and (max-width: 775px) {
+  /* name */
+  .column {
+    margin-inline: 90px;
+  }
+}
+
+@media screen and (max-width: 778px) {
+  .box p{
+    padding-inline: 15px;
+    flex-basis: 35%;
+  }
+  .box h1{
+    flex-basis: 35%;
+  }
+}
+
+@media screen and (max-width: 768px) {   /* tablet */
+  /* header */
+  nav {
+    padding-inline: 15px;
+  }
+
+  /* profile */
+  .title{
+    font-size: 32px;
+  }
+  .subtitle{
+    font-size: 20px;
+  }
+  .PD-image {
+    width: 200px;
+    height: 200px;
+    margin-block: 32px;
+  }
+
+  /* name */
+  .column{
+    margin-inline: 0;
+    padding-inline: 0;
+  }
+  .column h1{
+    font-size: 24px;
+  }
+
+  /* skills */
+
+  .circle {
+    width: 85px;
+    height: 85px;
+  }
+
+  .rectangle {
+    height: 40px;
+    width: 40px;
+  }
+
+  .terminal {
+    font-size: 30px;
+  }
+
+  /* work */
+  .my_work h1{
+    font-size: 24px;
+  }
+  .row{
+    padding-block: 48px;
+  }
+
+  /* collabration */
+  .collabration h1{
+    font-size: 20px;
+  }
+
+  /* work */
+  .col-3 {
+    flex-basis: 100%;
+    height: 450px;
+    margin-block: 15px;
+  }
+  
+  /* footer */
+  .box {
+    flex-direction: column;
+    margin-inline: 0;
+    margin-top: -250px;
+    border-radius: 20px;
+    padding: 56px 20px;
+  }
+  .box h1 {
+    margin-bottom: 12px;
+    padding: 12px;
+  }
+  .box p {
+    padding: 12px 0;
+    margin-bottom: 12px;
+    font-size: 17px;
+  }
+  .box a {
+    padding-top: 30px;
+  }
+  .footer_container{
+    padding-inline: 0px;
+  }
+  .footer_container ul li{
+    margin-inline: 4px;
+  }
+}
+
+@media screen and (max-width: 748px) {
+  /* work */
+  .row{
+    padding-block: 40px;
+  }
+}
+
+@media screen and (max-width: 548px) {
+  .PD-image{
+    height: 175px;
+    width: 175px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header{
+    padding-inline: 0;
+  }
+
+  /* work */
+  .col-3{
+    height: 375px; 
+  }
+
+  .see_more span{
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+
+  /* header */
+  .header {
+    padding-inline: 0px;
+  }
+
+  nav {
+    padding-inline: 15px;
+  }
+
+  /* profile */
+  .container {
+    padding: 48px 24px;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+  }
+
+  .PD-image {
+    margin-block: 32px;
+    height: 45%;
+    width: 45%;
+  }
+
+  /* name section */
+  .name {
+    padding: 80px 24px 224px;
+  }
+
+  .column {
+    margin-inline: 0px;
+    padding: 0;
+  }
+
+  .column h1 {
+    font-size: 21px;
+    font-weight: 800;
+  }
+
+  .column h2 {
+    font-size: 20px;
+  }
+
+  /* skills section */
+  .skills_desc {
+    line-height: 1.5;
+  }
+
+  .languages_speaked {
+    margin-top: 25px;
+  }
+
+  .circle {
+    width: 75px;
+    height: 75px;
+  }
+
+  .rectangle {
+    height: 38px;
+    width: 38px;
+  }
+
+  .terminal {
+    font-size: 28px;
+  }
+
+  /* my work */
+  .my_work {
+    padding: 80px 24px;
+  }
+
+  .work h1 {
+    font-size: 24px;
+  }
+
+  .row {
+    padding: 32px 0 64px;
+    gap: 20px;
+  }
+
+  .col-3 {
+    flex-basis: 100%;
+    margin: 0;
+  }
+
+  .space {
+    padding-top: 40px;
+    padding-bottom: 14px;
+  }
+
+  /* collabration */
+  .collabration {
+    padding: 96px 24px;
+  }
+
+  .collabration h1 {
+    font-size: 20px;
+  }
+
+  /* footer */
+  .box {
+    flex-direction: column;
+    margin-inline: 0;
+    margin-top: -250px;
+    border-radius: 20px;
+  }
+
+  .box h1 {
+    margin-bottom: 12px;
+  }
+
+  .box p {
+    padding: 12px 0;
+    margin-bottom: 12px;
+  }
+
+  .box a {
+    padding-top: 26px;
+  }
+
+  .footer_container {
+    padding-inline: 0;
+  }
+
+  .footer_container h1 {
+    font-size: 24px;
+    margin: 44px 16px;
+    padding: 0;
+  }
+
+  .footer_container ul li {
+    margin-inline: 4px;
+  }
+}
+
+@media screen and (max-width: 328px) {
+  /* name */
+  .name h1{
+    font-size: 18px;
+  }
+  .name h2{
+    font-size: 15px;
+  }
+
+  /* profile */
+  .title{
+    font-size: 24px;
+  }
+  .subtitle{
+    font-size: 16px;
+  }
+  .PD-image{
+    margin-block: 20px;
+  }
+
+  /* skills column */
+  .skills_column h1{
+    font-size: 20px;
+  }
+  .skills_desc, .languages_speaked, .tools, .languages{
+    font-size: 15px;
+  }
+  .skills_column ul li{
+    font-size: 15px;
+  }
+
+  /* work */
+  .my_work h1{
+    font-size: 20px;
+  }
+  .my_work h2{
+    font-size: 17px;
+  }
+  .row{
+    padding-top: 20px;
+  }
+  .see_more span{
+    font-size: 17px;
+  }
+  .col-3{
+    height: 300px;
+  }
+
+  .collabration h1, .collabration h2{
+    font-size: 18px;
+  }
+
+  .box h1{
+    font-size: 24px;
+  }
+  .box p, .box span, .see_more span{
+    font-size: 14px;
+  }
+
+  /* footer */
+  .footer_container ul li{
+    margin-inline: 0;
+  }
+  .footer_container h1{
+    font-size: 20px;
+  }
+  .footer_container h2{
+    font-size: 15px;
+  }
+}
