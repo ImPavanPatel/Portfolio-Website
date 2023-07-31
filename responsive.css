@@ -104,6 +104,12 @@
 
 }
 
+@media screen and (max-width: 786px) {
+  .box span{
+    padding-inline: 15px;
+  }
+}
+
 @media screen and (max-width: 775px) {
   /* name */
   .column {

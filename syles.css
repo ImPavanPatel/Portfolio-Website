@@ -381,7 +381,9 @@ hr{
   color: #FFF;
 }
 .footer_container img{
-  padding: 8px 15px;
+  padding-block: 15px;
+  width: 100px;
+  height: 100px;
 }
 .footer_container h1{
   margin: 32px;
