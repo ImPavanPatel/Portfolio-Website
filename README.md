@@ -1,7 +1,6 @@
 This is a portfolio website I created for my friend to showcase their skills, projects, and experiences in a visually appealing and professional manner. The website is designed to highlight their work and provide an easy way for potential clients, collaborators, or employers to get to know them better.
 
-
-Features:
+####Features:
 
 1. Interactive and Responsive Design: The website is built using modern web technologies, ensuring a seamless experience on various devices and screen sizes.
 
